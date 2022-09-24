@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+body {
+    background-image: radial-gradient(circle at 50% -20.71%, #a3a7ff 0, #7a8ffc 25%, #3c78f2 50%, #0063e8 75%, #0051de 100%);    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo {
+    width: 160px;
+    display: flex;
+    border: solid #EEF1FF;
+    border-radius: 20px;
+    margin-left: 85%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.contenido1 {
+    width: 500px;
+    height: 300px;
+    border: dotted black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.cir1 {
+    width: 200px;
+    height: 200px;
+    border: solid #3F4E4F;
+    border-radius: 50%;
+    background-image: url(https://viapais.com.ar/resizer/x4HCLnA-75jVI933VOG_WrdlbXo=/1023x682/smart/cloudfront-us-east-1.images.arcpublishing.com/grupoclarin/ENC7VEBWWRGIDCKYA6LXX2VKIA.jpg);
+    background-size: cover;
+}
+
+.cir2 {
+    width: 200px;
+    height: 200px;
+    border: solid #3F4E4F;
+    border-radius: 50%;
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/1b/f0/1a/75/atardecer-de-fuego-en.jpg);
+    background-size: cover;
+}
+
+
+.cir3 {
+    width: 200px;
+    height: 200px;
+    border: solid #3F4E4F;
+    border-radius: 50%;
+    background-image: url(https://passporterapp.com/es/blog/wp-content/uploads/2021/10/mar-del-plata-argentina.jpeg);
+    background-size: cover;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 40px;
+    align-items: center;
+}
+
+
+.contenido2 {
+    width: 550px;
+    height: 350px;
+    border: dotted black;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+}
+
+.contenido3 {
+    width: 600px;
+    height: 350px;
+    border: dotted black;
+    border-radius: 20px;
+    padding: 10px ;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-image: linear-gradient(180deg, #a6ffff 0, #a2edff 25%, #9dd5f2 50%, #96bed5 75%, #8ea8b9 100%);
+    border-radius: 20px ;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: black;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: #3F4E4F;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: black;
+    margin-right: 10px;
+    background-image: url(https://www.filo.news/__export/1639434467084/sites/claro/img/2021/12/13/duki_movistar_4.jpeg_423682103.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-2{
+    background-image: linear-gradient(180deg, #9fb7f5 0, #6c90d8 50%, #2c6bbb 100%);
+    padding: 15px 10px;
+    text-align: center;
+    color: black;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px) {
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
